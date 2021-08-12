@@ -1,7 +1,8 @@
 Create Table countries (
-	country_id varchar(80),
-	country_name varchar(80),
-	region_id varchar(80)
+	country_id char(2) primary key,
+	country_name Varchar(40),
+	region_id decimal
 );
 
---Ref: p.7 - 2.3
+-- varchar2 and number data type just only in datatype sql oracle so changed them to varcahr and decimal
+-- Ref 16 - 3.3:
